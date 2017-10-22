@@ -1,0 +1,25 @@
+{
+  "name": "ebook",
+  "version": "1.0.0",
+  "description": "App to sell Ebook",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glawing42/ebook.git"
+  },
+  "author": "Graham Lawing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glawing42/ebook/issues"
+  },
+  "homepage": "https://github.com/glawing42/ebook#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.1.1"
+  }
+}
